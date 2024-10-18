@@ -7,12 +7,12 @@ class HeaderSearchResults extends StatelessWidget {
   final Function voiceRecordingAnimation;
 
   const HeaderSearchResults({
-    Key? key,
+    super.key,
     required this.isRecording,
     required this.voiceRecordingAnimation,
     required this.stopVoiceSearch,
     required this.stopSearch,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

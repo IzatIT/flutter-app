@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: _appBar(),
+      appBar: _selectedIndex == 0 ? _appBar() : null,
       body: _pages[_selectedIndex],
       bottomNavigationBar: CustomBottomNavBar(
         currentIndex: _selectedIndex,

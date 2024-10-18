@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class CategoriesCarouselCard extends StatelessWidget {
+  const CategoriesCarouselCard({super.key});
+
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
