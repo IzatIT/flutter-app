@@ -1,4 +1,4 @@
-import 'package:first_app/shared/product_card.dart';
+import 'package:first_app/shared/index.dart';
 import 'package:flutter/material.dart';
 
 class ProductWidget extends StatefulWidget {
@@ -28,9 +28,7 @@ class _ProductWidgetState extends State<ProductWidget> {
               ),
               IconButton(
                 icon: const Icon(Icons.arrow_forward, color: Color(0xFF7868D8)),
-                onPressed: () {
-                  // Handle the action on arrow click
-                },
+                onPressed: () {},
               ),
             ],
           ),
@@ -44,8 +42,7 @@ class _ProductWidgetState extends State<ProductWidget> {
             itemCount: 6,
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 2,
-              childAspectRatio:
-                  3 / 5.6, // Aspect ratio of 3:4 for the product cards
+              childAspectRatio: 3 / 5.6,
               crossAxisSpacing: 16,
               mainAxisSpacing: 16,
             ),

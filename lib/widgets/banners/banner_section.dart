@@ -1,4 +1,4 @@
-import 'package:first_app/shared/banner_card.dart';
+import 'package:first_app/shared/index.dart';
 import 'package:flutter/material.dart';
 
 class BannerSection extends StatefulWidget {

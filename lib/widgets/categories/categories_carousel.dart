@@ -1,4 +1,4 @@
-import 'package:first_app/shared/category_carousel_card.dart';
+import 'package:first_app/shared/index.dart';
 import 'package:flutter/material.dart';
 
 class CategoriesCarousel extends StatefulWidget {

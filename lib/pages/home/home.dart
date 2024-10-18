@@ -1,16 +1,5 @@
-import 'package:first_app/features/address/address-select.dart';
-import 'package:first_app/features/navbar/navbar.dart';
-import 'package:first_app/features/notification/notification.dart';
-import 'package:first_app/shared/category_carousel_card.dart';
-import 'package:first_app/widgets/banners/banner_section.dart';
-import 'package:first_app/widgets/categories/categories_section.dart';
-import 'package:first_app/widgets/screens/basket.dart';
-import 'package:first_app/widgets/screens/categories.dart';
-import 'package:first_app/widgets/products/products_section.dart';
-import 'package:first_app/widgets/screens/home.dart';
-import 'package:first_app/widgets/screens/profile.dart';
-import 'package:first_app/widgets/screens/shorts.dart';
-import 'package:first_app/features/search/search.dart';
+import 'package:first_app/widgets/index.dart';
+import 'package:first_app/features/index.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {

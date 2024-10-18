@@ -1,7 +1,4 @@
-import 'package:first_app/widgets/banners/banner_section.dart';
-import 'package:first_app/widgets/categories/categories_carousel.dart';
-import 'package:first_app/widgets/categories/categories_section.dart';
-import 'package:first_app/widgets/products/products_section.dart';
+import 'package:first_app/widgets/index.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
