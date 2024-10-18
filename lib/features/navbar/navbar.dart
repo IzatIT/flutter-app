@@ -27,12 +27,12 @@ class CustomBottomNavBar extends StatelessWidget {
           label: 'Shorts',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.person),
-          label: 'Profile',
-        ),
-        BottomNavigationBarItem(
           icon: Icon(Icons.shopping_basket),
           label: 'Basket',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.person),
+          label: 'Profile',
         ),
       ],
       currentIndex: currentIndex,
