@@ -24,7 +24,7 @@ class _ShortsVideoItemState extends State<ShortsVideoItem> {
       }).catchError((error) {
         print('Error loading video: $error');
       });
-    if (_controller.videoPlayerOptions != null) {
+    if (_controller.setLooping != null) {
       _controller.setLooping(true);
     }
   }
