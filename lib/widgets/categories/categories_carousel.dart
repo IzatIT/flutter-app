@@ -17,7 +17,7 @@ class _CategoriesCarousel extends State<CategoriesCarousel> {
         scrollDirection: Axis.horizontal,
         itemCount: 10,
         itemBuilder: (context, index) {
-          return CategoriesCarouselCard();
+          return const CategoriesCarouselCard();
         },
       ),
     );

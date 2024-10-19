@@ -16,8 +16,8 @@ class _HomePageState extends State<HomePage> {
     const HomeScreen(),
     const CategoriesScreen(),
     const ShortsScreen(),
-    const ProfileScreen(),
     const BasketScreen(),
+    const ProfileScreen(),
   ];
 
   void _onItemTapped(int index) {

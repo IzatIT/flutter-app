@@ -35,15 +35,21 @@ class _AddressSelectFeatureState extends State<AddressSelectFeature> {
 
   @override
   Widget build(BuildContext context) {
-    return TextButton.icon(
-      icon: const Icon(Icons.location_on, color: Color(0xFF7868D8)),
-      label: const Row(
-        children: [
-          Text('Адрес доставки', style: TextStyle(color: Color(0xFFFFFFFF))),
-          Icon(Icons.arrow_drop_down, color: Color(0xFF7868D8)),
-        ],
+    return Padding(
+      padding: EdgeInsets.zero, // Use zero padding or customize as needed
+      child: TextButton.icon(
+        icon: const Icon(Icons.location_on, color: Color(0xFF7868D8)),
+        label: const Row(
+          children: [
+            Text('Адрес доставки', style: TextStyle(color: Color(0xFFFFFFFF))),
+            Icon(Icons.arrow_drop_down, color: Color(0xFF7868D8)),
+          ],
+        ),
+        onPressed: _openAddressSelection,
+        style: TextButton.styleFrom(
+          padding: EdgeInsets.zero,
+        ),
       ),
-      onPressed: _openAddressSelection, // Open address selection dialog
     );
   }
 }

@@ -51,13 +51,13 @@ class _NotificationFeature extends State<NotificationFeature> {
                         title: 'Notification 1',
                         description:
                             'This is the description of the notification 1',
-                        backgroundColor: const Color(0xFF7868D8),
+                        backgroundColor: Color(0xFF7868D8),
                       ),
                       NotificationCard(
                         title: 'Notification 2',
                         description:
                             'This is the description of the notification 2',
-                        backgroundColor: const Color(0xFF8AC186),
+                        backgroundColor: Color(0xFF8AC186),
                         withButton: true,
                       ),
                     ],

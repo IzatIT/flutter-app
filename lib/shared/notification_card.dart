@@ -75,7 +75,7 @@ class _NotificationCardState extends State<NotificationCard> {
                     borderRadius: BorderRadius.circular(10),
                   ),
                   padding: const EdgeInsets.symmetric(vertical: 7),
-                  minimumSize: Size(double.infinity, 50),
+                  minimumSize: const Size(double.infinity, 50),
                 ),
                 child: const Text('Available Notifications'),
               ),

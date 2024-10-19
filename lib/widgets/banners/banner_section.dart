@@ -16,7 +16,7 @@ class _BannerSection extends State<BannerSection> {
       child: PageView.builder(
         itemCount: 5,
         itemBuilder: (context, index) {
-          return BannerCard();
+          return const BannerCard();
         },
       ),
     );
