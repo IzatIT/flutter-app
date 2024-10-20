@@ -28,19 +28,23 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: _selectedIndex == 0 ? _appBar() : null,
-      body: _pages[_selectedIndex],
-      bottomNavigationBar: CustomBottomNavBar(
-        currentIndex: _selectedIndex,
-        onTap: _onItemTapped,
+    return PopScope(
+      canPop: false,
+      child: Scaffold(
+        appBar: _selectedIndex == 0 ? _appBar() : null,
+        body: _pages[_selectedIndex],
+        bottomNavigationBar: CustomBottomNavBar(
+          currentIndex: _selectedIndex,
+          onTap: _onItemTapped,
+        ),
+        backgroundColor: const Color(0xFF231921),
       ),
-      backgroundColor: const Color(0xFF231921),
     );
   }
 
   AppBar _appBar() {
     return AppBar(
+      automaticallyImplyLeading: false,
       backgroundColor: const Color(0xFF33343D),
       toolbarHeight: 140,
       title: const Column(

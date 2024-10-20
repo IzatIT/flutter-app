@@ -13,10 +13,10 @@ class ProfileScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             // Profile Picture
-            Center(
+            const Center(
               child: CircleAvatar(
                 radius: 60,
-                backgroundImage: const AssetImage(
+                backgroundImage: AssetImage(
                     'assets/images/profile.jpg'), // Replace with actual image
               ),
             ),

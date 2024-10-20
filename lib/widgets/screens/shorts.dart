@@ -23,6 +23,7 @@ class _ShortsScreenState extends State<ShortsScreen> {
     "assets/videos/example3.mp4",
     "assets/videos/example4.mp4",
   ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
