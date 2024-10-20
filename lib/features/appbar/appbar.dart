@@ -10,7 +10,7 @@ class CustomAppBar extends StatelessWidget {
   final Function() onStartVoiceSearch;
 
   const CustomAppBar({
-    Key? key,
+    super.key,
     required this.onAddressSelected,
     required this.searchController,
     required this.isSearching,
@@ -18,7 +18,7 @@ class CustomAppBar extends StatelessWidget {
     required this.onStartSearch,
     required this.onStopSearch,
     required this.onStartVoiceSearch,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

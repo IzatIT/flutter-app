@@ -151,8 +151,8 @@ class _HomePageState extends State<HomePage> {
                     prefixIcon:
                         const Icon(Icons.search, color: Color(0xFF7868D8)),
                     hintText: 'Search',
-                    hintStyle:
-                        TextStyle(color: Color(0xFF33343D)), // Hint text color
+                    hintStyle: const TextStyle(
+                        color: Color(0xFF33343D)), // Hint text color
                     suffixIcon: _isSearching
                         ? null
                         : IconButton(
@@ -294,12 +294,12 @@ class _HomePageState extends State<HomePage> {
                     color: const Color(0xFF8AC186), // Category card color
                     borderRadius: BorderRadius.circular(8),
                   ),
-                  child: Column(
+                  child: const Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      const Icon(Icons.category, size: 50, color: Colors.white),
-                      const SizedBox(height: 8),
-                      const Text(
+                      Icon(Icons.category, size: 50, color: Colors.white),
+                      SizedBox(height: 8),
+                      Text(
                         'Category 1',
                         style: TextStyle(color: Colors.white),
                       ),
@@ -314,12 +314,12 @@ class _HomePageState extends State<HomePage> {
                     color: const Color(0xFF8AC186), // Category card color
                     borderRadius: BorderRadius.circular(8),
                   ),
-                  child: Column(
+                  child: const Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      const Icon(Icons.category, size: 50, color: Colors.white),
-                      const SizedBox(height: 8),
-                      const Text(
+                      Icon(Icons.category, size: 50, color: Colors.white),
+                      SizedBox(height: 8),
+                      Text(
                         'Category 2',
                         style: TextStyle(color: Colors.white),
                       ),
@@ -334,12 +334,12 @@ class _HomePageState extends State<HomePage> {
                     color: const Color(0xFF8AC186), // Category card color
                     borderRadius: BorderRadius.circular(8),
                   ),
-                  child: Column(
+                  child: const Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      const Icon(Icons.category, size: 50, color: Colors.white),
-                      const SizedBox(height: 8),
-                      const Text(
+                      Icon(Icons.category, size: 50, color: Colors.white),
+                      SizedBox(height: 8),
+                      Text(
                         'Category 3',
                         style: TextStyle(color: Colors.white),
                       ),

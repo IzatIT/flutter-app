@@ -256,18 +256,18 @@ class _HomeWidgetState extends State<HomeWidget> {
         color: const Color(0xFF7868D8), // Product card color
         borderRadius: BorderRadius.circular(8),
       ),
-      child: Column(
+      child: const Column(
         children: [
-          const Expanded(
+          Expanded(
             child: Center(
               child: Icon(Icons.fastfood, size: 50, color: Colors.white),
             ),
           ),
-          const Padding(
+          Padding(
             padding: EdgeInsets.all(8.0),
             child: Text('Product Name', style: TextStyle(color: Colors.white)),
           ),
-          const Padding(
+          Padding(
             padding: EdgeInsets.only(bottom: 8.0),
             child: Text('\$9.99', style: TextStyle(color: Colors.white)),
           ),
