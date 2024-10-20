@@ -9,11 +9,22 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  video_player: ^2.9.2
+  visibility_detector: ^0.4.0+2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
-
+assets:
+    - assets/videos/*
+    - assets/images/*
 flutter:
   uses-material-design: true
+  assets:
+    - assets/videos/example.mp4
+    - assets/videos/example2.mp4
+    - assets/videos/example3.mp4
+    - assets/videos/example4.mp4
+    - assets/images/example.jpeg
+    - assets/images/example3x4.jpg

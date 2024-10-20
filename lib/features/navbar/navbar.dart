@@ -1,5 +1,3 @@
-// custom_bottom_nav_bar.dart
-
 import 'package:flutter/material.dart';
 
 class CustomBottomNavBar extends StatelessWidget {
@@ -29,12 +27,12 @@ class CustomBottomNavBar extends StatelessWidget {
           label: 'Shorts',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.person),
-          label: 'Profile',
-        ),
-        BottomNavigationBarItem(
           icon: Icon(Icons.shopping_basket),
           label: 'Basket',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.person),
+          label: 'Profile',
         ),
       ],
       currentIndex: currentIndex,
