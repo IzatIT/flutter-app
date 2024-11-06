@@ -7,12 +7,12 @@ class BasketProductCard extends StatefulWidget {
   final Function(int) selectProduct;
 
   BasketProductCard({
-    Key? key,
+    super.key,
     required this.index,
     required this.isSelected,
     required this.selectProduct,
     required this.isSelecting,
-  }) : super(key: key);
+  });
 
   @override
   _BasketProductCardState createState() => _BasketProductCardState();

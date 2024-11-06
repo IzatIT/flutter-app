@@ -24,9 +24,7 @@ class _ShortsVideoItemState extends State<ShortsVideoItem> {
       }).catchError((error) {
         print('Error loading video: $error');
       });
-    if (_controller.setLooping != null) {
-      _controller.setLooping(true);
-    }
+    _controller.setLooping(true);
   }
 
   AspectRatio _getVideo() {
@@ -207,9 +205,7 @@ class _ShortsVideoItemState extends State<ShortsVideoItem> {
 
   @override
   void dispose() {
-    if (_controller.dispose != null) {
-      _controller.dispose();
-    }
+    _controller.dispose();
     super.dispose();
   }
 }
